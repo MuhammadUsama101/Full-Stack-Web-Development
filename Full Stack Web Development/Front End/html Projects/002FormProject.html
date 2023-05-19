@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Job Application </h2>
+        <label for="Username">Name :</label><br/><br/>
+        <input placeholder="Enter name here " type="text" name="Name" id="Username"><br/>
+        <label for="Email">Email :</label><br/><br/>
+        <input placeholder="Enter email here " type="text" name="Email use" id="Email"><br/>
+        <label for="Phone Number">Phone :</label><br/><br/>
+        <input placeholder="phone Number " type="tel" name="UserPhone" id="Phone Number"><br/>
+        <label for="Resume data ">Resume :</label><br/><br/>
+        <input type="file" name="user resume" id="Resume data"><br/>
+        <label for="Experience">Experience (Years) :</label>
+        <input placeholder="0-50" min="0" max="50"  type="number" name="Experience letter " id="Experience"><br/>
+        <fieldset>
+            <legend>Skills :</legend>
+                <input type="checkbox" name="Checker" id="checking subjects">
+                <label for="checking subjects">HTML</label><br/>
+                <input type="checkbox" name="Checker" id="checking subjects">
+                <label for="checking subjects">CSS</label><br/>
+                <input type="checkbox" name="Checker" id="checking subjects">
+                <label for="checking subjects">JAVASCRIPT</label><br/>
+        </fieldset>
+        <label for="educational data">Highest Education :</label><br/><br/>
+        <select name="Selector" id="educational data">
+                <option value="starter">Select</option>
+                <option value="HS">HIGH SCHOOL</option>
+                <option value="cl">COLLEGE</option>
+                <option value="UNI">UNIVERSITY</option>
+        </select><br/><br/>
+       <fieldset>
+            <legend>Availability :</legend>
+                <input type="radio" name="radio" id="full">
+                <label for="time">Full-time</label><br/>
+                <input type="radio" name="radio" id="part">
+                <label for="part">Part-time</label><br/>
+       </fieldset>
+       <br/><br/>
+        <label for="comment">Additional comments :</label><br/>
+        <textarea placeholder="Enter your comment here ..." name="comments" id="comment" cols="35" rows="5"></textarea>
+        <input type="submit" name="" id="">
+    </form>
+</body>
+</html>

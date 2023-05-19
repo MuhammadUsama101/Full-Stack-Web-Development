@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- table>(thead>th*4)+tbody>(tr>td*4)*4 -->
+    <table border="1">
+        <thead>
+            <th>Name</th>
+            <th>Id</th>
+            <th>Roll_no</th>
+            <th>Section</th>
+        </thead>
+        <tbody> 
+        <tr>
+            <td>Usama</td>
+            <td>123</td>
+            <td>5506</td>
+            <td rowspan="3">BSSE-2A</td>
+        </tr>
+        <tr>
+            <td>Ahamd</td>
+            <td>345</td>
+            <td>5501</td>
+            
+        </tr>
+        <tr>
+            <td>Suleman</td>
+            <td>656</td>
+            <td>5505</td>
+            
+        </tr>
+        <tr>
+            <td>Waleed</td>
+            <td>759</td>
+            <td colspan="2">5507</td>
+            
+        </tr>
+        </tbody>
+    </table>
+
+<!-- -----------------------another table----------------------- -->
+        <br><br><br>    
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>Column 1</td>
+                <td>Column 2</td>
+                <td>Column 3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Row1 Cell1</td>
+                <td>Row1 Cell2</td>
+                <td>Row1 Cell3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Cell2</td>
+                <td>Row 2 Cell3</td>
+            </tr>
+            <tr>
+                <td colspan="3">Row 3 Cell 1 </td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- -----------------------another table----------------------- -->
+    <br><br>
+    <table border="1">
+        <thead>
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Type</th>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Bill Gates</td>
+            <td>Founder Microsoft</td>
+            <td>$1000</td>
+            <td rowspan="4">Company Founder</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Steve Jobs</td>
+            <td>Founder Apple</td>
+            <td>$1200</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Founder Google</td>
+            <td>$1100</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mark Zuckebrg</td>
+            <td>Founder Face Book</td>
+            <td>1300</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Expense:</td>
+            <td>$4600</td>
+            </tr>
+            
+        </tfoot>
+    </table>
+
+<!-- -----------------------another table----------------------- -->
+<br><br><br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="3">Seminar</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Shedule</th>
+                    <th rowspan="2">Topic</th>
+                </tr>
+                <tr>
+                    <th>Begin</th>
+                    <th>End</th>    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Monday</td>
+                    <td rowspan="2">8:00</td>
+                    <td rowspan="2">5:00</td>
+                    <td>Introduction</td>
+                </tr>
+                <tr>
+                    <td>Validity</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Tuesday</td>
+                    <td>8:00</td>
+                    <td>11:00</td>
+                    <td rowspan="2">XPath</td>
+                </tr>
+                <tr>
+                    <td>11:00</td>
+                    <td>2:00</td>
+                </tr>
+                <tr>
+                    <td>2:00</td>
+                    <td>5:00</td>
+                    <td>XSL Transformation</td>
+                </tr>
+                <tr>
+                    <td>Wednessday</td>
+                    <td>8:00</td>
+                    <td>12:00</td>
+                    <td>XSL Formating objects</td>
+                </tr>
+            </tbody>
+        </table>
+
+</body>
+</html>
